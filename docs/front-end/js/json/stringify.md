@@ -47,7 +47,6 @@ JSON.stringify({x: undefined}); // '{}'
 JSON.stringify(function(){}); // undefined
 JSON.stringify(undefined); // undefined
 ```
-{{JSON.stringify(function(){})}}
 - 包含循环引用,会抛出错误
 ```js
 // 循环引用（对象之间相互引用，形成无限循环）
