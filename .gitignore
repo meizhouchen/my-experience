@@ -10,7 +10,6 @@
 *.vsix
 bench/source/gen*.js
 coverage
-dist
 examples/**/pnpm-lock.yaml
 packages/runtime/*.global.js
 packages/unocss/README.md
