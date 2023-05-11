@@ -4,11 +4,12 @@ import preset from 'css-allin-class/preset'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	vite: {
-		plugins: [
-			allin({ unit:'px', prefix:'a-', presets:[preset()]})
-		]
-	},
+	// vite: {
+	// 	plugins: [
+	// 		allin({ unit:'px', prefix:'a-', presets:[preset()]})
+	// 	]
+	// },
+	base: '/test-my-pages/',
 	title: "my experince",
 	description: "我的技术经验",
 	themeConfig: {
