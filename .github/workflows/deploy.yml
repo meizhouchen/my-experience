@@ -15,13 +15,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+      - uses: pnpm/action-setup@v2.2.2
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: pnpm
-      - run: pnpm i
+          cache: 'pnpm'
+      - run: pnpm install
       - name: Build
         run: pnpm docs:build
       - uses: actions/configure-pages@v2
