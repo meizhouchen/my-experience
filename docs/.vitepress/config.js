@@ -9,8 +9,8 @@ export default defineConfig({
 	// 		allin({ unit:'px', prefix:'a-', presets:[preset()]})
 	// 	]
 	// },
-	base: '/my-experince/',
-	title: "my experince",
+	base: '/my-experience/',
+	title: "my experience",
 	description: "我的技术经验",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
