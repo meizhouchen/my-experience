@@ -1,7 +1,7 @@
 {
   "name": "my-experience",
   "version": "1.0.0",
-  "packageManager": "pnpm@8.1.1",
+  "packageManager": "pnpm@7.1.82",
   "description": "",
   "main": "index.js",
   "scripts": {
