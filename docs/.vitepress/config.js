@@ -9,7 +9,7 @@ export default defineConfig({
 	// 		allin({ unit:'px', prefix:'a-', presets:[preset()]})
 	// 	]
 	// },
-	base: '/test-my-pages/',
+	base: '/my-experince/',
 	title: "my experince",
 	description: "我的技术经验",
 	themeConfig: {
