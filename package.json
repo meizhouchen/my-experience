@@ -1,6 +1,7 @@
 {
   "name": "my-experience",
   "version": "1.0.0",
+  "packageManager": "pnpm@8.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
