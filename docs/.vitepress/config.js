@@ -252,13 +252,13 @@ export default defineConfig({
 									text: '包管理',
 									collapsed: true,
 									items: [
-										{ text: 'npm', link: '/front-end/engineering/pnpm/index' },
-										{ text: 'yarn', link: '/front-end/engineering/pnpm/index' },
-										{ text: 'npx', link: '/front-end/engineering/pnpm/index' },
-										{ text: 'nvm', link: '/front-end/engineering/pnpm/index' },
+										{ text: 'npm', link: '/front-end/engineering/package/npm' },
+										{ text: 'yarn', link: '/front-end/engineering/package/yarn' },
+										{ text: 'npx', link: '/front-end/engineering/package/npx' },
+										{ text: 'nvm', link: '/front-end/engineering/package/nvm' },
 										{
 											text: 'pnpm',
-											link: '/front-end/engineering/pnpm/index',
+											link: '/front-end/engineering/package/pnpm/index',
 										},
 									]
 								},
