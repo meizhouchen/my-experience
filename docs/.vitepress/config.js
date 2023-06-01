@@ -149,6 +149,7 @@ export default defineConfig({
 							items: [
 								{
 									text: '浏览器',
+									collapsed: true,
 									items: [
 										{ text: '事件循环', link: '/front-end/index' },
 										{ text: '同源策略', link: '/markdown-examples' },
@@ -168,7 +169,7 @@ export default defineConfig({
 										{ text: '无障碍', link: '/front-end/index' }
 									]
 								},
-								{ text: 'Chrome', link: '/markdown-examples' },
+								{ text: 'Chrome', link: '/front-end/browser/Chrome/index' },
 								{ text: 'Edge', link: '/front-end/index' },
 								{ text: 'Firefox', link: '/front-end/index' },
 								{ text: 'Safari', link: '/front-end/index' },
