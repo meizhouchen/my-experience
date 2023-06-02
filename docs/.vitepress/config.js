@@ -17,11 +17,46 @@ export default defineConfig({
 		nav: [
 			{ text: '首页', link: '/' },
 			{ text: '前端', link: '/front-end/前端' },
-			{ text: '后端', link: '/front-end/index' },
+			{ text: '后端', link: '/back-end/index' },
 			{ text: '面试', link: '/interview/front-end/index' }
 		],
 
 		sidebar: {
+      '/back-end/': [
+        {
+        	text: 'node',
+        	collapsed: true,
+          link: '/back-end/node/node',
+        	items: [
+            {
+            	text: '框架',
+            	collapsed: true,
+            	items: [
+            		{ text: 'egg', link: '/back-end/node/framework/egg' },
+            	]
+            },
+        	]
+        },
+        {
+        	text: 'pm2',
+          link: '/back-end/pm/index',
+        },
+        {
+        	text: 'java',
+        	collapsed: true,
+        	items: [
+        		{ text: 'Path2D', link: '/front-end/HTML/Canvas/Path2D' },
+        	]
+        },
+        {
+        	text: 'mysql',
+        	collapsed: true,
+          link: '/back-end/mysql/index',
+        	items: [
+        		{ text: 'Path2D', link: '/front-end/HTML/Canvas/Path2D' },
+        	]
+        },
+      ],
 			'/front-end/': [
 				{
 					text: '前端',
