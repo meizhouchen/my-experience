@@ -4,20 +4,19 @@ import preset from 'css-allin-class/preset'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-	// vite: {
-	// 	plugins: [
-	// 		allin({ unit:'px', prefix:'a-', presets:[preset()]})
-	// 	]
-	// },
+	vite: {
+		plugins: [
+			allin({ unit:'px', prefix:'a-', presets:[preset()]})
+		]
+	},
 	base: '/my-experience/',
-	title: "my experience",
+	title: "经验记录",
 	description: "我的技术经验",
 	themeConfig: {
 		// https://vitepress.dev/reference/default-theme-config
-
 		nav: [
 			{ text: '首页', link: '/' },
-			{ text: '前端', link: '/front-end/index' },
+			{ text: '前端', link: '/front-end/前端' },
 			{ text: '后端', link: '/front-end/index' },
 			{ text: '面试', link: '/interview/front-end/index' }
 		],
