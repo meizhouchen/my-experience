@@ -78,3 +78,28 @@
 		});
 	},
 ```
+
+<view id="life-choice-page" class="life-choice-page" @scroll="onBoxScroll">
+
+    // 监听滚动
+    onBoxScroll() {
+      if (this.isReachBottom()) {
+        this.$refs.goodList.nextGoodsPage(); // 触底加载
+      }
+    },
+    // 是否触底
+    isReachBottom(){
+      const pageBox = document.getElementById('life-choice-page');
+      const { 
+        scrollTop, //获取dom滚动距离
+        offsetHeight, //获取可视区高度
+        scrollHeight //获取滚动条总高度
+      } = pageBox
+      
+      const reachBottomHeight = scrollHeight - offsetHeight - scrollTop;
+      if (reachBottomHeight === 0) {
+        return true // 触底
+      }
+      
+      return false
+    }
