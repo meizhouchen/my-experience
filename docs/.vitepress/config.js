@@ -53,8 +53,25 @@ export default defineConfig({
         	collapsed: true,
           link: '/back-end/mysql/index',
         	items: [
-        		{ text: 'Path2D', link: '/front-end/HTML/Canvas/Path2D' },
-        	]
+						{
+							text: '基础',
+							collapsed: true,
+							items: [
+								{ text: 'SQL', link: '/back-end/mysql/SQL/base/index' },
+								{ text: '查询', link: '/back-end/mysql/SQL/base/DML' },
+								{ text: '函数', link: '/back-end/mysql/SQL/base/fun' },
+								{ text: '约束', link: '/back-end/mysql/SQL/base/constraint' },
+								{ text: '事务', link: '/back-end/mysql/SQL/base/thing' },
+							]
+						},
+						{
+							text: '进阶',
+							collapsed: true,
+							items: [
+								{ text: '存储引擎', link: '/back-end/mysql/SQL/middle/index' },
+							]
+						},
+					]
         },
       ],
 			'/front-end/': [
