@@ -30,7 +30,7 @@ pm2插件提供实时的接口，返回服务器与进程的信息，后面会�
 
 ## 安装
 ```bash
-npm install pm2 -g
+npm install pm2 -g 
 ```
 
 查看pm2的位置
@@ -55,7 +55,7 @@ ln -s /usr/software/nodejs/bin/pm2 /usr/local/bin/
 pm2 start app.js
 ```
 得到如下图
-![](index_files/1.jpg)
+![运行结果](index_files/1.jpg)
 （1）其中app name 和id都是这个进程的标识，可以对他们进行别的操作，比如stop，delete等。
 （2）mode：进程模式，cluster或fork。cluster有多个进程，而fork只有一个。
 （3）status：进程是否在线
@@ -104,6 +104,7 @@ pm2 monit
 - 启动命令（start）还可以带参数
 其它可用选项：
 
+```
 --watch 以监听模式启动，当文件发生变化时自动重启
 --max-memory-restart <200MB> 设置应用重载占用的最大内存
 --log <log_path> 指定日志文件
@@ -113,6 +114,8 @@ pm2 monit
 --no-autorestart 不自动重启
 --cron <cron_pattern> 按指定的定时任务规则强制重启
 --no-daemon 以非守护进程模式启动
+```
+
 小结：
 上面介绍的这些启动其实有弊端：
 1、通过命令行传递参数，无法记住到底传递过哪些参数。
@@ -251,9 +254,12 @@ pm2 cleardump
 
 生成示例配置文件
 
+```
 pm2 ecosystem # 或 pm2 init
+```
 示例配置如下（根据实际项目需要添加、删除配置项）
 
+```
 module.exports = {
   apps : [{
   name      : 'demo',      // 应用名
@@ -287,6 +293,7 @@ module.exports = {
     }
   }
 }
+```
 
 以配置文件启动示例
 
@@ -295,6 +302,7 @@ pm2 start ecosystem.config.js --env production
  
  升级 PM2
 
+```
 # 更新前推荐先保存当前应用列表，方便更新后直接恢复
 pm2 save
  
@@ -306,6 +314,7 @@ pm2 update
  
 # 恢复应用列表
 pm2 resurrect
+```
  日志切割
 
 安装 pm2-logrotate-ext 扩展模块
@@ -317,6 +326,7 @@ pm2 install pm2-logrotate-ext
 
 可以通过以下命令对其配置进行修改：
 
+```
 # 当文件大小超过此设置则执行切割
 pm2 set pm2-logrotate-ext:max_size 1M
  
@@ -342,3 +352,4 @@ pm2 set pm2-logrotate-ext:rotateModule true
 # 是否按定时任务设置规则强制执行
 # 如果设置为否，则只有当日志文件大小超过设置时才进行切割
 pm2 set pm2-logrotate-ext:forced true
+```
