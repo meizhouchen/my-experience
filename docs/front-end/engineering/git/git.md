@@ -14,3 +14,15 @@
  3、利用“git branch --delete --remotes”命令删除追踪分支。
  
  [cheery pick](https://blog.csdn.net/GBS20200720/article/details/123840359)
+ 
+ 
+ # 查看代理 
+ git config --global --get http.proxy git config --global --get https.proxy 
+ # 设置http、https: 
+ git config --global http.proxy http://127.0.0.1:7890 
+ git config --global https.proxy https://127.0.0.1:7890 
+ # 设置socks: 
+ git config --global http.proxy 'socks5://127.0.0.1:1080' 
+ git config --global https.proxy 'socks5://127.0.0.1:1080' 
+ ## 取消 
+ git config --global --unset http.proxy git config --global --unset https.proxy
