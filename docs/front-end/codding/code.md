@@ -103,3 +103,54 @@
       
       return false
     }
+    
+    
+```js
+copy(text){
+  uni.setClipboardData({
+    data: '' + text,
+    success: function () {
+      console.log('success');
+    }
+  });
+},
+```
+
+```
+ <view @click="checkboxChange" class="icon" :class="isAgree ? 'icon-checked' : 'normal'" style="">
+            <u-icon class="" style="" name="checkbox-mark" :size="20" :color="isAgree ? '#ffffff' : 'transparent'"/>
+          </view>
+          我已阅读并同意
+```
+```scss
+  .icon {
+   width: 28rpx;
+   height: 28rpx; 
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid #c8c9cc;
+   transition-duration: 0.2s;
+   margin-right: 8rpx;
+   --outerH: 400%;
+   --outerW: 400%;
+   position: relative;
+   &::before{
+     content: '';
+     width: calc(100% + var(--outerW));
+     height: calc(100% + var(--outerH));
+     top: calc(0% - var(--outerH) / 2 );
+     right: calc(0% - var(--outerW) / 2 );
+     position: absolute;
+     // background-color: rgba(0, 0, 0, 0.3);
+   }
+   &-checked{
+     border-color: #FF4A26;
+     background-color: #FF4A26;
+   }
+   &-normal{
+     border: 1px solid #c8c9cc;
+   }
+  }
+```
