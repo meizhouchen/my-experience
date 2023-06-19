@@ -42,6 +42,10 @@ export default defineConfig({
           link: '/back-end/pm/index',
         },
         {
+        	text: 'MQ',
+          link: '/back-end/mq/mq',
+        },
+        {
         	text: 'java',
         	collapsed: true,
         	items: [
