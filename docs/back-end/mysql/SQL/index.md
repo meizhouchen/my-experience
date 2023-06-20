@@ -8,32 +8,45 @@ SQL通用语法
 
 DDL
 查询
-![](index_files/1.jpg)
 
-![](index_files/2.jpg)
+[//]: # (![]&#40;index_files/1.jpg&#41;)
+[//]: # ()
+[//]: # (![]&#40;index_files/2.jpg&#41;)
+[//]: # ()
+[//]: # (![]&#40;index_files/3.jpg&#41;)
 
-![](index_files/3.jpg)
 
-
-![](index_files/4.jpg)
+[//]: # (![]&#40;index_files/4.jpg&#41;)
 创建表
-![](index_files/5.jpg)
+
+[//]: # (![]&#40;index_files/5.jpg&#41;)
 
 类型
-![](index_files/6.jpg)
-![](index_files/7.jpg)
-![](index_files/8.jpg)
+
+[//]: # (![]&#40;index_files/6.jpg&#41;)
+
+[//]: # (![]&#40;index_files/7.jpg&#41;)
+
+[//]: # (![]&#40;index_files/8.jpg&#41;)
 
 修改
-![](index_files/9.jpg)
-![](index_files/10.jpg)
+
+[//]: # (![]&#40;index_files/9.jpg&#41;)
+
+[//]: # (![]&#40;index_files/10.jpg&#41;)
 
 示例
-![](index_files/12.jpg)
-![](index_files/11.jpg)
 
-![](index_files/13.jpg)
-![](index_files/14.jpg)
-![](index_files/15.jpg)
+[//]: # (![]&#40;index_files/12.jpg&#41;)
 
-![](index_files/16.jpg)
+[//]: # (![]&#40;index_files/11.jpg&#41;)
+
+[//]: # ()
+[//]: # (![]&#40;index_files/13.jpg&#41;)
+
+[//]: # (![]&#40;index_files/14.jpg&#41;)
+
+[//]: # (![]&#40;index_files/15.jpg&#41;)
+
+[//]: # ()
+[//]: # (![]&#40;index_files/16.jpg&#41;)
