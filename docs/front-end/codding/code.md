@@ -154,3 +154,27 @@ copy(text){
    }
   }
 ```
+
+
+```js
+const datas = response.data.data.items[0];
+let { isEnable, isJump, ...res } = datas
+this.paramForm = res
+
+// this.paramForm.id = datas.id;
+// this.paramForm.activityUrl = datas.activityUrl;
+// this.paramForm.JumpUrl = datas.JumpUrl;
+this.paramForm.isEnable = isEnable === '0';
+this.paramForm.isJump = isJump === '0';
+// this.paramForm.continuedTime = datas.continuedTime;
+// this.paramForm.beginTime = datas.beginTime;
+// this.paramForm.endTime = datas.endTime;
+// this.paramForm.jumpSellId = datas.jumpSellId;
+// this.paramForm.jumpType = datas.jumpType;
+// this.paramForm.regionId = datas.regionId;
+// this.paramForm.isDefault = datas.isDefault;
+
+// this.paramForm.activeStyle = datas.activeStyle;
+// this.paramForm.brandPic = datas.brandPic;
+// this.paramForm.activityName = datas.activityName;
+```

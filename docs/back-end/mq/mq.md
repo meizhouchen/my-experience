@@ -18,3 +18,18 @@
 
 
 ## 安装 
+[教程](https://developer.aliyun.com/article/1134566)
+[](https://www.rabbitmq.com/install-windows.html)
+
+环境变量
+```
+%ERLANG_HOME%\bin;
+```
+```
+ERLANG_HOME
+
+D:\app\Erlang OTP
+```
+
+[](http://localhost:15672)
+guest
