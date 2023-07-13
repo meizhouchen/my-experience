@@ -32,7 +32,7 @@ dataLogDir=E:\app\apache-zookeeper-3.8.1-bin\log
 
 4. 运行
 执行bin目录下 zkServer.cmd
-
+![](zookeeper_files/2.jpg)
 > 坑 执行闪退
 编辑zkServer.cmd文件,末尾添加pause 
 
