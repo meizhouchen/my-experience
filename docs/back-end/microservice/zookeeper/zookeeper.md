@@ -1,4 +1,7 @@
 # zookeeper
+[ZooKeeper的安装、配置、启动和使用](http://www.taodudu.cc/news/show-1773986.html?action=onClick)
+[zookeeper在Windows中的启动操作及设置服务自启动](https://blog.csdn.net/weixin_45926962/article/details/127819319)
+[Windows下安装zookeeper](https://blog.csdn.net/weixin_48526216/article/details/126689548)
 
 ## 安装
 

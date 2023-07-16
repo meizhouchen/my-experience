@@ -71,3 +71,26 @@ server 192.168.0.12:81 weight 1;
 location /a/ {
   proxy_pass http://group1/1
 }
+
+
+## 问题  
+### 405 not allowed问题解决方法
+
+正常访问Http接口时正常，但通过nginx访问却出现405 not allowed的提示。
+
+### 解决方案
+
+在nginx的站点配置中添加以下error_page 405 =200  $request_uri;这句即可。
+
+    server {
+        listen       9095;
+        server_name  localhost;
+
+    #前端网站
+    location / {
+        root D:\dqc\portal\portal-vue;    # 静态页面根目录
+        index index.html;#默认首页
+        error_page 405 =200  $request_uri;
+        }
+
+}

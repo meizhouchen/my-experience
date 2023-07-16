@@ -9,3 +9,4 @@ PS D:\app\redis> redis-server.exe redis.windows.conf
 
 停止
 关闭powershell即可
+[windows 安装并启动 Redis](https://blog.csdn.net/m0_59139771/article/details/129652009)
