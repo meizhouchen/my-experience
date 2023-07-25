@@ -1,0 +1,19 @@
+import{_ as s,o as n,c as a,O as p}from"./chunks/framework.3938e08f.js";const A=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/app.md","filePath":"front-end/app.md"}'),l={name:"front-end/app.md"},o=p(`<p>深度选择</p><div class="language-css"><button title="Copy Code" class="copy"></button><span class="lang">css</span><pre class="shiki material-theme-palenight"><code><span class="line"><span style="color:#A6ACCD;">//common</span><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">scss</span></span>
+<span class="line"><span style="color:#A6ACCD;">::</span><span style="color:#FFCB6B;">v-deep</span><span style="color:#A6ACCD;"> </span><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">index_list_bar</span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#A6ACCD;">	.uni-section{</span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">background-color</span><span style="color:#89DDFF;">:#</span><span style="color:#A6ACCD;">fff</span><span style="color:#F78C6C;">!important</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">margin</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;">0px!important</span><span style="color:#89DDFF;">;</span><span style="color:#A6ACCD;"> </span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">font-weight</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;">700!important</span><span style="color:#89DDFF;">;</span><span style="color:#A6ACCD;"> </span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">height</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;">80</span><span style="color:#A6ACCD;">rpx</span><span style="color:#F78C6C;">!important</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#A6ACCD;">	</span><span style="color:#89DDFF;">}</span></span>
+<span class="line"><span style="color:#A6ACCD;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#A6ACCD;">//index</span><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">vue首页中</span></span>
+<span class="line"><span style="color:#A6ACCD;">/deep/ </span><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">index_list_bar</span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#A6ACCD;">	.uni-section{</span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">background-color</span><span style="color:#89DDFF;">:#</span><span style="color:#A6ACCD;">fff</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">margin</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;">0px</span><span style="color:#89DDFF;">;</span><span style="color:#A6ACCD;"> </span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">font-weight</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;">700</span><span style="color:#89DDFF;">;</span><span style="color:#A6ACCD;"> </span></span>
+<span class="line"><span style="color:#A6ACCD;">		</span><span style="color:#B2CCD6;">height</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;">80</span><span style="color:#A6ACCD;">rpx</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#A6ACCD;">	</span><span style="color:#89DDFF;">}</span></span>
+<span class="line"><span style="color:#A6ACCD;">}</span></span></code></pre></div>`,2),t=[o];function e(c,r,C,D,y,F){return n(),a("div",null,t)}const _=s(l,[["render",e]]);export{A as __pageData,_ as default};

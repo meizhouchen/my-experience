@@ -31,5 +31,8 @@ ERLANG_HOME
 D:\app\Erlang OTP
 ```
 
+本地访问，账号
+```
 http://localhost:15672
 guest
+```
