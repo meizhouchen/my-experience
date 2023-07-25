@@ -31,5 +31,5 @@ ERLANG_HOME
 D:\app\Erlang OTP
 ```
 
-[](http://localhost:15672)
+http://localhost:15672
 guest

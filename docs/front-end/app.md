@@ -1,4 +1,5 @@
 深度选择
+```css
 //common.scss
 ::v-deep .index_list_bar{
 	.uni-section{
@@ -18,3 +19,4 @@
 		height:80rpx;
 	}
 }
+```
