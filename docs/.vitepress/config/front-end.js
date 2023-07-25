@@ -39,7 +39,7 @@ export const sidebar = [{
       },
       {
         text: 'CSS层叠样式表',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '❗ BFC 和 IFC 机制', link: '/front-end/index' },
           { text: '简写', link: '/front-end/CSS/shorthand' },
@@ -195,7 +195,7 @@ export const sidebar = [{
         ]
       },
       {
-        text: '软件开发',
+        text: '软件开发思想',
         collapsed: true,
         items: [{
             text: '设计模式',
@@ -215,7 +215,7 @@ export const sidebar = [{
       },
       {
         text: '工程化',
-        collapsed: true,
+        collapsed: false,
         items: [{
             text: '包管理',
             collapsed: true,
@@ -276,7 +276,15 @@ export const sidebar = [{
               { text: '提交检查', link: '/front-end/index' },
             ]
           },
-          { text: '构建工具', link: '/front-end/index' },
+          { text: '构建工具', link: '/front-end/engineering/packTool/webpack' ,
+            items: [
+              { text: 'webpack',
+               items: [
+                 { text: 'proxy', link: '/front-end/engineering/packTool/webpack/proxy' },
+               ]
+               },
+            ]
+          },
           { text: '测试', link: '/front-end/index' },
           { text: '持续集成', link: '/front-end/index' },
           { text: '部署', link: '/front-end/index' },

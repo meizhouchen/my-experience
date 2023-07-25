@@ -40,6 +40,7 @@
       return newItems
     },
 ```
+
 这样改了之后，明显提升速度，但是依旧有坏代码的味道了
 ```js
 	setupList(items){
@@ -79,7 +80,7 @@
 	},
 ```
 
-<view id="life-choice-page" class="life-choice-page" @scroll="onBoxScroll">
+<!-- <view id="life-choice-page" class="life-choice-page" @scroll="onBoxScroll"> -->
 
     // 监听滚动
     onBoxScroll() {
@@ -117,11 +118,12 @@ copy(text){
 ```
 
 ```
- <view @click="checkboxChange" class="icon" :class="isAgree ? 'icon-checked' : 'normal'" style="">
-            <u-icon class="" style="" name="checkbox-mark" :size="20" :color="isAgree ? '#ffffff' : 'transparent'"/>
-          </view>
-          我已阅读并同意
+<view @click="checkboxChange" class="icon" :class="isAgree ? 'icon-checked' : 'normal'" style="">
+  <u-icon class="" style="" name="checkbox-mark" :size="20" :color="isAgree ? '#ffffff' : 'transparent'"/>
+</view>
+我已阅读并同意
 ```
+
 ```scss
   .icon {
    width: 28rpx;

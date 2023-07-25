@@ -46,6 +46,9 @@ export const sidebar = [{
   {
     text: 'pm2',
     link: '/back-end/pm/index',
+    items: [
+      { text: 'egg+pm2', link: '/back-end/pm/egg+pm2' },
+    ]
   },
 
   {
